@@ -18,6 +18,6 @@ spec:
     containers:
     - name: tomcat
       imagePullPolicy: Always
-      image: gauravdemo06/tomcat-webapp:v1
+      image: pavanbadri/demo-tomcat:v1
       ports:
         - containerPort: 8080
